@@ -1,0 +1,47 @@
+Microsoft Windows [Version 6.1.7601]
+
+User@USER-PC d:\openserver
+# cd domains/table2/
+
+User@USER-PC d:\OpenServer\domains\table2
+# php -r "readfile('https://getcomposer.org/installer');" | php
+All settings correct for using Composer
+Downloading...
+
+Composer (version 2.0.6) successfully installed to: D:\OpenServer\domains\table2\composer.phar
+Use it: php composer.phar
+
+
+User@USER-PC d:\OpenServer\domains\table2
+# php composer.phar -V
+Composer version 2.0.6 2020-11-07 11:21:17
+
+User@USER-PC d:\OpenServer\domains\table2
+# php composer.phar  require nesbot/carbon
+Using version ^2.41 for nesbot/carbon
+./composer.json has been created
+Running composer update nesbot/carbon
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 5 installs, 0 updates, 0 removals
+  - Locking nesbot/carbon (2.41.5)
+  - Locking symfony/polyfill-mbstring (v1.20.0)
+  - Locking symfony/polyfill-php80 (v1.20.0)
+  - Locking symfony/translation (v5.1.8)
+  - Locking symfony/translation-contracts (v2.3.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 5 installs, 0 updates, 0 removals
+  - Installing symfony/translation-contracts (v2.3.0): Extracting archive
+  - Installing symfony/polyfill-php80 (v1.20.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.20.0): Extracting archive
+  - Installing symfony/translation (v5.1.8): Extracting archive
+  - Installing nesbot/carbon (2.41.5): Extracting archive
+3 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+5 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+
+User@USER-PC d:\OpenServer\domains\table2
+#
+
